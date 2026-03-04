@@ -9,6 +9,6 @@ image = df.iloc[1:]
 
 plt.imshow(image, cmap='gray', vmin=0, vmax=1)
 plt.axis('off')
-plt.show()
+plt.show()  
 
 print(image)
